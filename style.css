@@ -28,6 +28,12 @@ h2 {
   border-bottom: 1px solid #30363d;
   padding-bottom: .3rem;
 
+.projet {
+  background-color: #161b22,
+  margin: 1rem 0;
+  padding: 1rem;
+  color: #8b949e;
+    
 footer {
   text-align: center;
   padding: 2rem;
