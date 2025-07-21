@@ -62,7 +62,7 @@ h2 {
 
  @media (max-width: 600px) {
    .projet-main {
-     flex-direction: column;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
      align-items: center;
    }
  }
