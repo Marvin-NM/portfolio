@@ -11,6 +11,25 @@ header {
   text-align: center;
 }
 
+.typewriter {
+  overflow: hidden;
+  border-right: .15em solid #58a6ff;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #58a6ff; }
+}
+
 nav a {
   margin: 0 15px;
   color: #58a6ff;
